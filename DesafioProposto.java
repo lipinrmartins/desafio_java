@@ -14,14 +14,14 @@ public class DesafioProposto {
         System.out.println("\n***********************");
 
         while (escolhaOperacao != 4){
-            String menuOperacoes = String.format("""
+            String menuOperacoes = """
                     Operações:
                     1 - Consultar saldo
                     2 - Receber Valor
                     3 - Transferir Valor
                     4 - Sair Aplicação
                     
-                    Digite a opção desejada:""");
+                    Digite a opção desejada:""";
             System.out.println(menuOperacoes);
             int operacao = new Scanner(System.in).nextInt();
             if (operacao == 4){
