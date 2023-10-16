@@ -22,8 +22,10 @@ public class DesafioProposto {
                     4 - Sair Aplicação
                     
                     Digite a opção desejada:""";
+
             System.out.println(menuOperacoes);
             int operacao = new Scanner(System.in).nextInt();
+
             if (operacao == 4){
                 System.out.println("Você encerrou as operações!");
                 escolhaOperacao = 4;
